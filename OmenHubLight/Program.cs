@@ -18,9 +18,9 @@ namespace OmenHubLight
             WmiEventWatcher.StartHpBiosEventWatcher();
             Ring0.Open();
             Opcode.Open();
-            GpuInfo.OpenGpuGroups();
             CpuInfo.OpenCpuGroups();
-
+            GpuInfo.OpenGpuGroups();
+            
             Application.ApplicationExit += AppExitCleanUp;
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);

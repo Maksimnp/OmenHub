@@ -175,7 +175,7 @@ namespace OmenHubLight.Forms
                     .Max();
 
                 UpdateTemperatureTextDelegate d = UpdateTempInfoText;
-                Invoke(d, $"CPU Temperature: {cpuTemperatures}℃", $"GPU Temperature: {gpuTemperatures}℃");
+                Invoke(d, $"CPU Temperature: {cpuTemperatures} ℃", $"GPU Temperature: {gpuTemperatures} ℃");
             });
         }
 
@@ -216,8 +216,8 @@ namespace OmenHubLight.Forms
             {
                 m = m switch
                 {
-                    PerformanceMode.Default => PerformanceMode.L2,
-                    PerformanceMode.Performance => PerformanceMode.L7,
+                    PerformanceMode.Default => PerformanceMode.L0,
+                    PerformanceMode.Performance => PerformanceMode.L1,
                     PerformanceMode.Cool => PerformanceMode.L4,
                     _ => m
                 };

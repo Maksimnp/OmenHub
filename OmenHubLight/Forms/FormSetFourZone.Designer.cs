@@ -36,7 +36,6 @@ namespace OmenHubLight.Forms
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.checkBoxEnable = new System.Windows.Forms.CheckBox();
@@ -59,20 +58,21 @@ namespace OmenHubLight.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label3.Location = new System.Drawing.Point(28, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(362, 41);
+            this.label3.Size = new System.Drawing.Size(175, 32);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Four Zone KeyBoard Light";
+            this.label3.Text = "Keyboard Light";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(32, 70);
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(28, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 28);
+            this.label1.Size = new System.Drawing.Size(95, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "Enable Light";
             // 
@@ -80,9 +80,10 @@ namespace OmenHubLight.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(32, 110);
+            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label2.Location = new System.Drawing.Point(28, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 28);
+            this.label2.Size = new System.Drawing.Size(109, 21);
             this.label2.TabIndex = 7;
             this.label2.Text = "Zone 1 (Right)";
             // 
@@ -90,9 +91,10 @@ namespace OmenHubLight.Forms
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(32, 150);
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(28, 112);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 28);
+            this.label4.Size = new System.Drawing.Size(120, 21);
             this.label4.TabIndex = 8;
             this.label4.Text = "Zone 2 (Middle)";
             // 
@@ -100,9 +102,10 @@ namespace OmenHubLight.Forms
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(32, 190);
+            this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label5.Location = new System.Drawing.Point(28, 142);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 28);
+            this.label5.Size = new System.Drawing.Size(98, 21);
             this.label5.TabIndex = 9;
             this.label5.Text = "Zone 3 (Left)";
             // 
@@ -110,27 +113,22 @@ namespace OmenHubLight.Forms
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(32, 230);
+            this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label6.Location = new System.Drawing.Point(28, 172);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 28);
+            this.label6.Size = new System.Drawing.Size(116, 21);
             this.label6.TabIndex = 10;
             this.label6.Text = "Zone 4 (WASD)";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(32, 309);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(365, 20);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Pure RGB color may perform better on your keyboard.";
-            // 
             // buttonCancel
             // 
-            this.buttonCancel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonCancel.Location = new System.Drawing.Point(662, 305);
+            this.buttonCancel.BackColor = System.Drawing.Color.Transparent;
+            this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCancel.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buttonCancel.Location = new System.Drawing.Point(165, 225);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(126, 32);
+            this.buttonCancel.Size = new System.Drawing.Size(124, 35);
             this.buttonCancel.TabIndex = 12;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = false;
@@ -138,10 +136,13 @@ namespace OmenHubLight.Forms
             // 
             // buttonOk
             // 
-            this.buttonOk.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonOk.Location = new System.Drawing.Point(530, 305);
+            this.buttonOk.BackColor = System.Drawing.Color.Transparent;
+            this.buttonOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOk.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.buttonOk.Location = new System.Drawing.Point(28, 225);
+            this.buttonOk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(126, 32);
+            this.buttonOk.Size = new System.Drawing.Size(120, 35);
             this.buttonOk.TabIndex = 13;
             this.buttonOk.Text = "OK";
             this.buttonOk.UseVisualStyleBackColor = false;
@@ -150,9 +151,10 @@ namespace OmenHubLight.Forms
             // checkBoxEnable
             // 
             this.checkBoxEnable.AutoSize = true;
-            this.checkBoxEnable.Location = new System.Drawing.Point(273, 78);
+            this.checkBoxEnable.Location = new System.Drawing.Point(169, 56);
+            this.checkBoxEnable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBoxEnable.Name = "checkBoxEnable";
-            this.checkBoxEnable.Size = new System.Drawing.Size(18, 17);
+            this.checkBoxEnable.Size = new System.Drawing.Size(15, 14);
             this.checkBoxEnable.TabIndex = 14;
             this.checkBoxEnable.UseVisualStyleBackColor = true;
             // 
@@ -160,9 +162,10 @@ namespace OmenHubLight.Forms
             // 
             this.colorBox1.BackColor = System.Drawing.Color.Red;
             this.colorBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.colorBox1.Location = new System.Drawing.Point(269, 115);
+            this.colorBox1.Location = new System.Drawing.Point(165, 84);
+            this.colorBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.colorBox1.Name = "colorBox1";
-            this.colorBox1.Size = new System.Drawing.Size(25, 25);
+            this.colorBox1.Size = new System.Drawing.Size(22, 19);
             this.colorBox1.TabIndex = 15;
             this.colorBox1.TabStop = false;
             this.colorBox1.Click += new System.EventHandler(this.colorBox_Click);
@@ -171,9 +174,10 @@ namespace OmenHubLight.Forms
             // 
             this.colorBox2.BackColor = System.Drawing.Color.Green;
             this.colorBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.colorBox2.Location = new System.Drawing.Point(269, 155);
+            this.colorBox2.Location = new System.Drawing.Point(165, 114);
+            this.colorBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.colorBox2.Name = "colorBox2";
-            this.colorBox2.Size = new System.Drawing.Size(25, 25);
+            this.colorBox2.Size = new System.Drawing.Size(22, 19);
             this.colorBox2.TabIndex = 16;
             this.colorBox2.TabStop = false;
             this.colorBox2.Click += new System.EventHandler(this.colorBox_Click);
@@ -182,9 +186,10 @@ namespace OmenHubLight.Forms
             // 
             this.colorBox4.BackColor = System.Drawing.Color.Yellow;
             this.colorBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.colorBox4.Location = new System.Drawing.Point(269, 235);
+            this.colorBox4.Location = new System.Drawing.Point(165, 174);
+            this.colorBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.colorBox4.Name = "colorBox4";
-            this.colorBox4.Size = new System.Drawing.Size(25, 25);
+            this.colorBox4.Size = new System.Drawing.Size(22, 19);
             this.colorBox4.TabIndex = 17;
             this.colorBox4.TabStop = false;
             this.colorBox4.Click += new System.EventHandler(this.colorBox_Click);
@@ -193,19 +198,20 @@ namespace OmenHubLight.Forms
             // 
             this.colorBox3.BackColor = System.Drawing.Color.Blue;
             this.colorBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.colorBox3.Location = new System.Drawing.Point(269, 195);
+            this.colorBox3.Location = new System.Drawing.Point(165, 144);
+            this.colorBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.colorBox3.Name = "colorBox3";
-            this.colorBox3.Size = new System.Drawing.Size(25, 25);
+            this.colorBox3.Size = new System.Drawing.Size(22, 19);
             this.colorBox3.TabIndex = 18;
             this.colorBox3.TabStop = false;
             this.colorBox3.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // FormSetFourZone
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 349);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(317, 283);
             this.Controls.Add(this.colorBox3);
             this.Controls.Add(this.colorBox4);
             this.Controls.Add(this.colorBox2);
@@ -213,7 +219,6 @@ namespace OmenHubLight.Forms
             this.Controls.Add(this.checkBoxEnable);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.buttonCancel);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -221,9 +226,11 @@ namespace OmenHubLight.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormSetFourZone";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Four Zone KeyBoard Light";
             this.Load += new System.EventHandler(this.FormSetFourZone_Load);
             ((System.ComponentModel.ISupportInitialize)(this.colorBox1)).EndInit();
@@ -244,7 +251,6 @@ namespace OmenHubLight.Forms
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button buttonCancel;
         private System.Windows.Forms.Button buttonOk;
         private System.Windows.Forms.CheckBox checkBoxEnable;

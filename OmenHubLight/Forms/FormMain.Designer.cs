@@ -174,7 +174,7 @@ namespace OmenHubLight.Forms
             this.buttonFanMode.Name = "buttonFanMode";
             this.buttonFanMode.Size = new System.Drawing.Size(174, 37);
             this.buttonFanMode.TabIndex = 5;
-            this.buttonFanMode.Text = "Fan Mode";
+            this.buttonFanMode.Text = "Performance Mode";
             this.buttonFanMode.UseVisualStyleBackColor = false;
             this.buttonFanMode.Click += new System.EventHandler(this.buttonFanMode_Click);
             // 
@@ -187,7 +187,7 @@ namespace OmenHubLight.Forms
             this.buttonKeyboardLight.Name = "buttonKeyboardLight";
             this.buttonKeyboardLight.Size = new System.Drawing.Size(174, 37);
             this.buttonKeyboardLight.TabIndex = 7;
-            this.buttonKeyboardLight.Text = "KeyBoard Light";
+            this.buttonKeyboardLight.Text = "Keyboard Light";
             this.buttonKeyboardLight.UseVisualStyleBackColor = false;
             this.buttonKeyboardLight.Click += new System.EventHandler(this.buttonKeyboardLight_Click);
             // 
