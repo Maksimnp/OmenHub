@@ -49,7 +49,7 @@ namespace OmenHubLight.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label3.Location = new System.Drawing.Point(86, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(203, 32);
@@ -60,6 +60,7 @@ namespace OmenHubLight.Forms
             // 
             this.labelVersion.AutoSize = true;
             this.labelVersion.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelVersion.ForeColor = System.Drawing.SystemColors.Highlight;
             this.labelVersion.Location = new System.Drawing.Point(86, 54);
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(90, 19);
@@ -68,6 +69,8 @@ namespace OmenHubLight.Forms
             // 
             // textBoxLicense
             // 
+            this.textBoxLicense.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.textBoxLicense.ForeColor = System.Drawing.SystemColors.Highlight;
             this.textBoxLicense.Location = new System.Drawing.Point(13, 89);
             this.textBoxLicense.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxLicense.Multiline = true;
@@ -79,21 +82,21 @@ namespace OmenHubLight.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(407, 275);
             this.Controls.Add(this.textBoxLicense);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormAbout";
-            this.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.Padding = new System.Windows.Forms.Padding(10);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

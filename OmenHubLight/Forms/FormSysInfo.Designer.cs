@@ -46,12 +46,14 @@ namespace OmenHubLight.Forms
             this.infoGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.infoGrid.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.infoGrid.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.infoGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.infoGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.NameColumn,
             this.ValueColumn});
+            this.infoGrid.GridColor = System.Drawing.SystemColors.Highlight;
             this.infoGrid.Location = new System.Drawing.Point(0, 0);
+            this.infoGrid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.infoGrid.Name = "infoGrid";
             this.infoGrid.ReadOnly = true;
             this.infoGrid.RowHeadersVisible = false;
@@ -63,7 +65,7 @@ namespace OmenHubLight.Forms
             this.infoGrid.ShowCellToolTips = false;
             this.infoGrid.ShowEditingIcon = false;
             this.infoGrid.ShowRowErrors = false;
-            this.infoGrid.Size = new System.Drawing.Size(800, 460);
+            this.infoGrid.Size = new System.Drawing.Size(700, 345);
             this.infoGrid.TabIndex = 0;
             // 
             // NameColumn
@@ -90,9 +92,11 @@ namespace OmenHubLight.Forms
             // buttonOk
             // 
             this.buttonOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonOk.Location = new System.Drawing.Point(463, 466);
+            this.buttonOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOk.Location = new System.Drawing.Point(405, 350);
+            this.buttonOk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonOk.Name = "buttonOk";
-            this.buttonOk.Size = new System.Drawing.Size(94, 29);
+            this.buttonOk.Size = new System.Drawing.Size(82, 22);
             this.buttonOk.TabIndex = 1;
             this.buttonOk.Text = "OK";
             this.buttonOk.UseVisualStyleBackColor = true;
@@ -101,9 +105,11 @@ namespace OmenHubLight.Forms
             // buttonAdvanced
             // 
             this.buttonAdvanced.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAdvanced.Location = new System.Drawing.Point(563, 466);
+            this.buttonAdvanced.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdvanced.Location = new System.Drawing.Point(493, 350);
+            this.buttonAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonAdvanced.Name = "buttonAdvanced";
-            this.buttonAdvanced.Size = new System.Drawing.Size(225, 29);
+            this.buttonAdvanced.Size = new System.Drawing.Size(197, 22);
             this.buttonAdvanced.TabIndex = 2;
             this.buttonAdvanced.Text = "Windows System Information";
             this.buttonAdvanced.UseVisualStyleBackColor = true;
@@ -112,9 +118,11 @@ namespace OmenHubLight.Forms
             // buttonAbout
             // 
             this.buttonAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonAbout.Location = new System.Drawing.Point(12, 466);
+            this.buttonAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAbout.Location = new System.Drawing.Point(10, 350);
+            this.buttonAbout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonAbout.Name = "buttonAbout";
-            this.buttonAbout.Size = new System.Drawing.Size(94, 29);
+            this.buttonAbout.Size = new System.Drawing.Size(82, 22);
             this.buttonAbout.TabIndex = 3;
             this.buttonAbout.Text = "About";
             this.buttonAbout.UseVisualStyleBackColor = true;
@@ -122,17 +130,21 @@ namespace OmenHubLight.Forms
             // 
             // FormSysInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 507);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(700, 380);
             this.Controls.Add(this.buttonAbout);
             this.Controls.Add(this.buttonAdvanced);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.infoGrid);
+            this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Icon = global::OmenHubLight.Resource.AppIcon;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormSysInfo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "System Information";
             this.Load += new System.EventHandler(this.SystemInformationForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.infoGrid)).EndInit();

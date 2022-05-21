@@ -77,7 +77,6 @@ namespace Hp.Omen.OmenCommonLib.Utilities
                         _computerSystems = list;
                     }
                 }
-
                 return _computerSystems;
             }
         }
