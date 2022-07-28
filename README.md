@@ -23,7 +23,7 @@ Also, you can avoid the "HP System Event Utility" pouring trashes to your `C:\sy
 
 ## How to use it?
 
-Since OMEN Gaming Hub is a huge project, I only implemented a small part of it which my notebook (OMEN 15-dc0xxx, i7-8750H with NVIDIA GTX 1060) needed.  Currently, the application support the following feature:
+Currently, the application support the following feature:
 
 - Four Zone Keyboard Light
 - Fan Control (For the old models with only three options)
